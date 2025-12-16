@@ -1,0 +1,28 @@
+
+.main{
+    min-height: 100vh;          /* full screen */
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#3cc2e7;
+
+}
+
+.selection{
+    width: 90%;                 /* mobile friendly */
+    max-width: 400px;           /* desktop limit */
+    padding: 20px;
+    background-color:#a9a5c1;
+    display:flex;
+    justify-content:center;
+}
+
+.selection-credentials{
+    width: 100%;
+    border: 3px solid rgb(162, 60, 60);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;     /* spacing between elements */
+}
