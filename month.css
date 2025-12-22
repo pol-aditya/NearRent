@@ -1,0 +1,40 @@
+.mon{
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);  
+    gap: 10px;             
+                   
+}
+
+.selected-months {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.month-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+}
+
+.month-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}
+
+
+.days label {
+    font-size: 14px;
+}
