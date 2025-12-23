@@ -9,7 +9,12 @@
 
 }
 
+/* input{
+    display:none;
+} */
+
 .selection{
+    
     width: 90%;                 /* mobile friendly */
     max-width: 400px;           /* desktop limit */
     padding: 20px;
@@ -19,6 +24,7 @@
 }
 
 .selection-credentials{
+    border-radius: 30px;
     width: 100%;
     border: 3px solid rgb(162, 60, 60);
     padding: 16px;
