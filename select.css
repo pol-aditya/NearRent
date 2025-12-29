@@ -1,34 +1,99 @@
 
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
 .main{
     min-height: 100vh;          /* full screen */
     width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:#3cc2e7;
+    background-color:#c8f2f1;
 
 }
 
-/* input{
-    display:none;
-} */
-
 .selection{
+
+    width:90%;
+   
     
-    width: 90%;                 /* mobile friendly */
-    max-width: 400px;           /* desktop limit */
-    padding: 20px;
-    background-color:#a9a5c1;
+    max-width:600px;
+    padding:10px;
+    background-color:#f9f8fd;
     display:flex;
     justify-content:center;
+    border-radius: 20px;
+
 }
 
 .selection-credentials{
-    border-radius: 30px;
-    width: 100%;
-    border: 3px solid rgb(162, 60, 60);
-    padding: 16px;
+
+    width:100%;
+    border: 5px solid rgb(92, 87, 87);
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    border-radius:20px;
+
+}
+
+
+
+button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight:600;
+    cursor:pointer;
+    background-color: #39d4d2;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2cb5b3;
+}
+
+
+input{
+
+    width:100%;
+   
+
+    height:45px;
+    padding:10px 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size:16px;
+    box-sizing: border-box;
+
+}
+
+input:focus {
+    outline: none;
+    border-color:rgb(92, 87, 87);
+    box-shadow: 0 0 0 2px rgba(57,212,210,0.2);
+}
+
+.date-range {
     display: flex;
-    flex-direction: column;
-    gap: 12px;     /* spacing between elements */
+    gap: 12px;
+}
+
+.date-field{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    gap:4px;
+
+}
+
+.date-filed label{
+    font-size: 14px;
+    font-weight:500;
+    color: #333;
 }

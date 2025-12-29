@@ -1,0 +1,96 @@
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+.mark-attendance {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #cde9e9;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Top section */
+.mark-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #181515;
+}
+
+.today .day {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.today .date {
+    font-size:60px;
+    color: #666;
+}
+
+.all-actions {
+    display: flex;
+    gap: 30px;
+}
+
+.actions {
+    display: flex;
+    gap: 30px;
+}
+
+/* Subject list */
+.mark-subwise {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subject-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.subject-name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
+.present {
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: 3px solid rgb(45, 165, 45);
+    background:rgb(235, 224, 224);
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+.absent {
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: 3px solid orangered;
+    background:rgb(235, 224, 224);
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+.present:hover{
+    background:rgb(45, 165, 45);
+}
+
+.absent:hover{
+
+    background:orangered;
+
+}

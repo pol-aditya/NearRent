@@ -5,55 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="select.css">
-    <style>
-        .neww{
-           
-            margin-top: 20px;
-            width: 300px;
-            border: 2px solid gray;
-            padding: 10px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-            border-radius: 10px;
-            text-align: center;
-        }
-        .neww button{
-            display:none;
-        }
-        /* .neww .profile img{
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
 
-        .neww h3{
-            margin: 10px 0 5px 0;
-        }
-        .neww h5{
-            margin: 0 0 10px 0;
-            color: gray;
-            font-weight: normal;
-        }    */
-
-    </style>
 </head>
 <body>
         <div class="main">
             <div class="selection">
                 <form class="selection-credentials">
-                    <h2>month-of-semester</h2>
-                    <label> period of sem </label>
-                    <input type="text"   placeholder="period ( from to )">
+                    <h1>Enter Details</h1>
+                    <h2>Semester Period</h2>
+                    <div class="date-range">
+                        <div class="date-field">
+                            <label for="fromDate">From</label>
+                            <input type="date" id="fromDate">
+                        </div>
+                        <div class="date-field">
+                            <label for="toDate">To</label>
+                            <input type="date" id="toDate">
+                        </div>
+                    </div>
                     
-                    <label> select months </label>
-                    <input type="text"   placeholder="enter month">
-                    <input type="text"   placeholder="enter month">
-                    <input type="text"   placeholder="enter month">
-                    <input type="text"   placeholder="enter month">
-                    
-
-
-                    <label> select no. of subject  </label>
+                    <label> Enter the Subjects  </label>
                     <input type="text"   placeholder="1st subject">
                     <input type="text"   placeholder="2nd subject">
                     <input type="text"   placeholder="3rd subject">
@@ -64,42 +35,15 @@
                     <input type="text"   placeholder="8th subject">
                     <input type="text"   placeholder="9th subject">
                     <input type="text"   placeholder="10th subject">
-                    <button type="submit"> submit</button>
+                    <button type="submit"> Submit</button>
                 
                 </form>
             </div>
 
             
-                        <!-- <div class="neww">
-                        <form action="">
 
-                            <input type="text" id="inpa" placeholder="period">
-
-                            <input type="text" id="inpb" placeholder="month1">  
-                            <input type="text" id="inpb" placeholder="month2">  
-                            <input type="text" id="inpb" placeholder="month3">  
-                            <input type="text" id="inpb" placeholder="month4">  
-                       
-
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            <input type="text" id="inpc" placeholder="subject">
-                            
-                          
-                        </form>
-
-                    </div> -->
             </div>
         </div>
-
-
 
         <script src="selection.js"></script>
 </body>
